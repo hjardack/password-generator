@@ -9,7 +9,7 @@ def main():
     
     sample_space_standard = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYS0123456789'
     
-    sample_space_special_chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYS0123456789!@#$%^&*'
+    sample_space_special_chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*'
     
     number_of_chars = input("Enter desired number of characters. ")
     
