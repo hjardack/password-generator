@@ -20,10 +20,10 @@ def main():
     
     include_special_chars = input("Include special characters? Y/n ")
     
-    if include_special_chars in ('Y', 'y' 'Yes', 'yes', ''):
+    if include_special_chars in ('Y', 'y', 'yes', 'Yes', 'YES', ''):
         while len(password) < int(number_of_chars):
             password += random.choice(sample_space_special_chars)
-    elif include_special_chars in ('n', 'N' 'No', 'NO'):
+    elif include_special_chars in ('N', 'n', 'no', 'No', 'NO'):
         while len(password) < int(number_of_chars):
             password += random.choice(sample_space_standard)
     else:
